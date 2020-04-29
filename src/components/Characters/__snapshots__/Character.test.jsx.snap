@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character matches a snapshot 1`] = `
+<section>
+  <h3>
+    Helga G. Pataki
+  </h3>
+  <img
+    alt="Helga G. Pataki"
+    src="https://vignette.wikia.nocookie.net/heyarnold/images/e/e5/Helga_Pataki.png/revision/latest/scale-to-width-down/266?cb=20190816021807"
+  />
+</section>
+`;
