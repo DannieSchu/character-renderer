@@ -2,8 +2,12 @@
 
 exports[`Header matches a snapshot 1`] = `
 <header>
-  <h1>
-    X-Files Characters
-  </h1>
+  <Link
+    to="/"
+  >
+    <h1>
+      X-Files Characters
+    </h1>
+  </Link>
 </header>
 `;
