@@ -13,9 +13,7 @@ const CharacterDetail = () => {
   }, []);
 
   return (
-    <>
-      <Detail character={character} />
-    </>
+    <Detail {...character} />
   );
 };
 

@@ -5,7 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 import CharacterRenderer from '../../containers/CharacterRenderer/CharacterRenderer.jsx';
-import Detail from '../Detail/Detail.jsx';
+import CharacterDetail from '../../containers/CharacterDetail/CharacterDetail.jsx';
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={CharacterRenderer} />
-          <Route exact path="/:name" component={Detail} />
+          <Route exact path="/:name" component={CharacterDetail} />
         </Switch>
       </Router>
     </>

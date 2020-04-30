@@ -11,9 +11,7 @@ const CharacterRenderer = () => {
   }, []);
   
   return (
-    <>
-      <Characters characters={characters} />
-    </>
+    <Characters characters={characters} />
   );
 };
 
