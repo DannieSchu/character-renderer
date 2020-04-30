@@ -5,7 +5,7 @@ const Character = ({ name, url }) => {
   return (
     <section>
       <h3>{name}</h3>
-      <img src={url} alt={name} />
+      <img src={url} alt={name} width="250" />
     </section>
   );
 };

@@ -6,10 +6,10 @@ const Detail = ({ name, url, status, gender, born, description }) => {
   return (
     <section>
       <Character name={name} url={url} /> 
-      <p>Status: {status}</p>
-      <p>Gender: {gender}</p>
-      <p>Date of Birth: {born}</p>
-      <p>{description}</p>
+      <p>Status: {status || 'Probably dead'}</p>
+      <p>Gender: {gender || 'What is this anyway?'}</p>
+      <p>Date of Birth: {born || 'Unknown'}</p>
+      <p>{description || 'Use your imagination'}</p>
     </section>
   );
 };
