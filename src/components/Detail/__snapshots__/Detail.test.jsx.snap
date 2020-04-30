@@ -21,6 +21,7 @@ exports[`Detail matches a snapshot 1`] = `
         <img
           alt="John Fitzgerald Byers"
           src="https://vignette.wikia.nocookie.net/x-files/images/a/a4/John_Fitzgerald_Byers.jpg/revision/latest?cb=20120717071453"
+          width="250"
         />
       </section>
     </Character>
