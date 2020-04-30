@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getCharacters } from '../../services/HeyArnold.jsx';
+import { getCharacters } from '../../services/XFiles.jsx';
 import Characters from '../../components/Characters/Characters.jsx';
 
 const CharacterRenderer = () => {
