@@ -5,12 +5,12 @@ import Detail from '../../components/Detail/Detail.jsx';
 
 const CharacterDetail = () => {
   const [character, setCharacter] = useState({});
-  const match = useRouteMatch('./characters/:name');
+  const match = useRouteMatch('/:name');
 
   useEffect(() => {
     getCharacter(match.params.name)
       .then(fetchedCharacter => setCharacter(fetchedCharacter));
-  }, {});
+  }, []);
 
   return (
     <>

@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import Character from './Character.jsx';
 
 const Characters = ({ characters }) => {
   const characterItems = characters.map(character => (
     <li key={character.name}>
-      <Character {...character} />
+      <Link to={`/${character.name}`}>
+        <Character {...character} />
+      </Link>
     </li>
   ));
 
