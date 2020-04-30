@@ -11,8 +11,8 @@ import Header from '../Header/Header.jsx';
 export default function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Switch>
           <Route exact path="/" component={CharacterRenderer} />
           <Route exact path="/:name" component={CharacterDetail} />

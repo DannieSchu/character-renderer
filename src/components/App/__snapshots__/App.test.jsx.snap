@@ -2,8 +2,8 @@
 
 exports[`App component renders App 1`] = `
 <Fragment>
-  <Header />
   <BrowserRouter>
+    <Header />
     <Switch>
       <Route
         component={[Function]}
