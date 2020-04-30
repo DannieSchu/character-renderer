@@ -6,10 +6,12 @@ import {
 } from 'react-router-dom';
 import CharacterRenderer from '../../containers/CharacterRenderer/CharacterRenderer.jsx';
 import CharacterDetail from '../../containers/CharacterDetail/CharacterDetail.jsx';
+import Header from '../Header/Header.jsx';
 
 export default function App() {
   return (
     <>
+      <Header />
       <Router>
         <Switch>
           <Route exact path="/" component={CharacterRenderer} />
