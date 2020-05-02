@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches a snapshot 1`] = `
+<header>
+  <Link
+    to="/"
+  >
+    <h1>
+      X-Files Characters
+    </h1>
+  </Link>
+</header>
+`;

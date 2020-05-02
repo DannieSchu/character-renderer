@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail matches a snapshot 1`] = `
+<section>
+  <Character
+    name="John Fitzgerald Byers"
+    url="https://vignette.wikia.nocookie.net/x-files/images/a/a4/John_Fitzgerald_Byers.jpg/revision/latest?cb=20120717071453"
+  />
+  <p>
+    Status: 
+    Dead
+  </p>
+  <p>
+    Gender: 
+    Male
+  </p>
+  <p>
+    Date of Birth: 
+    22 November 1963
+  </p>
+  <p>
+    John Fitzgerald Byers was one of the three The Lone Gunmen (the others being Richard Langly and Melvin Frohike).
+  </p>
+</section>
+`;
